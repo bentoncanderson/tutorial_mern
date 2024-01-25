@@ -78,7 +78,6 @@ function App() {
               <div className="description">{transaction.description}</div>
             </div>
             <div className = "right">
-              console.log(transaction.price)
               <div className = {"price " + (transaction.price < 0 ? 'red':'green')}>
                 {transaction.price}
               </div>
